@@ -1,0 +1,36 @@
+#mksub
+
+cat url.txt|httpx -silent |favirecon |grep -i amazon
+
+cat url.txt|httpx -silent -path "/api/index.php/v1/config/application?public=true" -mc 200 # -->done
+
+apache struts,weblogic
+open-redirect http://example.com//attacker.com-->done
+bitbucket
+zimbra
+
+
+nginx alis traversal
+
+
+/debug/pprof/   --> https://hackerone.com/reports/1830186 ->done
+wordpress-->https://github.com/z92g/CVE-2022-21661
+
+https://github.com/horizon3ai/CVE-2022-39952?fbclid=IwAR2cmw6bsCtqthj6d0FWlYgtlNiZppYyfWgdGZ-8kgSYl8iRAS4KK77i-ng
+
+
+splunk
+========
+https://{splunk_ip}:8000/en-US/splunkd/__raw/services/server/info/server-info?output_mode=json
+
+
+AEM
+=======
+site:target.* inurl:'/content/dam' ext:txt
+
+exploit
+--------
+https://github.com/omarhashem123/Security-Research/tree/main/CVE-2022-42710
+
+thinkphp
+
